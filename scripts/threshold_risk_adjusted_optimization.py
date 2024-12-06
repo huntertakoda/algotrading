@@ -89,5 +89,5 @@ print(optimal_threshold)
 
 # save updated results
 
-results_df.to_csv(r'C:/Users/yanfr/algorithmictrading/threshold_optimization_with_risk.csv', index=False)
+results_df.to_csv(r'threshold_optimization_with_risk.csv', index=False)
 print("Updated threshold optimization results saved to 'threshold_optimization_with_risk.csv'.")
