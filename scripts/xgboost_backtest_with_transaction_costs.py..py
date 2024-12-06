@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # loading
 
-btc_data = pd.read_csv(r'C:/Users/yanfr/algorithmictrading/BTC_Featured_NewTarget.csv')
+btc_data = pd.read_csv(r'BTC_Featured_NewTarget.csv')
 
 # ftres and target definition
 
