@@ -5,7 +5,7 @@ from sklearn.metrics import precision_score, recall_score
 
 # loading
 
-btc_data = pd.read_csv(r'C:/Users/yanfr/algorithmictrading/BTC_Featured_NewTarget.csv')
+btc_data = pd.read_csv(r'BTC_Featured_NewTarget.csv')
 
 # ftres and target definition
 
@@ -76,7 +76,7 @@ results_df = pd.DataFrame(results)
 
 # saving results to file
 
-results_df.to_csv(r'C:/Users/yanfr/algorithmictrading/threshold_optimization_results.csv', index=False)
+results_df.to_csv(r'threshold_optimization_results.csv', index=False)
 print("Threshold optimization results saved to 'threshold_optimization_results.csv'.")
 
 # total return vs threshold visualization
