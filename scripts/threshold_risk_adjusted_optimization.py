@@ -5,7 +5,7 @@ from sklearn.metrics import precision_score, recall_score
 
 # loading
 
-btc_data = pd.read_csv(r'C:/Users/yanfr/algorithmictrading/BTC_Featured_NewTarget.csv')
+btc_data = pd.read_csv(r'BTC_Featured_NewTarget.csv')
 
 # ftres and target definition
 
