@@ -7,7 +7,7 @@ from xgboost import XGBClassifier
 
 # loading
 
-btc_data = pd.read_csv(r'C:/Users/yanfr/algorithmictrading/BTC_Featured_NewTarget.csv')
+btc_data = pd.read_csv(r'BTC_Featured_NewTarget.csv')
 
 # ftres and target definition
 features = ['BTC_price', 'daily_return', 'MA7', 'MA30', 'volatility', 'RSI', 'BB_Upper', 'BB_Lower', 'lag_1', 'lag_2', 'lag_3']
